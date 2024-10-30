@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туризм в Кыргызстане - Откройте для себя природу и культуру</title>
+  <meta name="description" content="Лучшие туристические направления и советы для путешествий по Кыргызстану. Исследуйте горы, озера и культурные достопримечательности.">  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Подключение jQuery -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+<header>
+  <div class="logo">
+    <img src="images/logo.png" alt="TravelNow Logo" class="logo-image">
+  </div>
+  <nav class="menu">
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul>
+      <li>
+        <a href="#destinations">Направления</a>
+      </li>
+      <li>
+        <a href="#tours">Туры</a>
+      </li>
+      <li>
+        <a href="#about">О нас</a>
+      </li>
+      <li>
+        <a href="#our-team">Наша команда</a>
+      </li>
+      <li>
+        <a href="#contact">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+  <a href="#book" class="book-button">Бронировать</a>
+</header>
+<!-- Swiper Section -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1508608725026-673848eb006c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Image 1">
+      <div class="slide-content">
+        <h2>Путешествуйте с нами</h2>
+        <p>Исследуйте удивительные места по всему миру.</p>
+        <a href="#book" class="cta-button">Начать путешествие</a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1528127269322-539801943592?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Animals Image">
+      <div class="slide-content">
+        <h2>Невероятные приключения</h2>
+        <p>Узнайте о дикой природе и экзотических животных.</p>
+        <a href="#book" class="cta-button">Забронировать тур</a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1500297726361-1715d90aec00?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Architecture Image">
+      <div class="slide-content">
+        <h2>Культурные открытия</h2>
+        <p>Погрузитесь в культуру и архитектуру разных стран.</p>
+        <a href="#book" class="cta-button">Исследовать</a>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img src="https://images.unsplash.com/photo-1621761879074-01102476f358?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tech Image">
+      <div class="slide-content">
+        <h2>Технологические достижения</h2>
+        <p>Исследуйте будущее технологий в путешествиях.</p>
+        <a href="#book" class="cta-button">Узнать больше</a>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation buttons -->
+  <button class="swiper-button swiper-button-prev">❮</button>
+  <button class="swiper-button swiper-button-next">❯</button>
+  <!-- Pagination Dots -->
+  <div class="swiper-pagination">
+    <span class="swiper-pagination-dot active"></span>
+    <span class="swiper-pagination-dot"></span>
+    <span class="swiper-pagination-dot"></span>
+    <span class="swiper-pagination-dot"></span>
+  </div>
+</div>
+<section class="destinations" id="destinations">
+  <span>Лучшие направления</span>
+  <h1>Популярные направления</h1>
+  <p>Мы предлагаем разнообразные туристические направления, каждое из которых раскрывает уникальную культуру, природу и атмосферу для незабываемых путешествий.</p>
+  <div class="container">
+    <div class="card">
+      <div class="card-inner" style="--clr:#f0f0f0;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="https://images.unsplash.com/photo-1625832054797-a07c92d248ba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Issyk-kul">
+          </div>
+          <div class="icon">
+            <a href="#" class="iconBox">
+              <span class="material-symbols-outlined"> arrow_outward </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Иссык-Куль</h3>
+        <p>Иссык-Куль — одно из крупнейших высокогорных озёр в мире, окружённое величественными горами. Здесь вы можете насладиться пляжным отдыхом, водными видами спорта и удивительными закатами.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner" style="--clr:#f0f0f0;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="https://triptokyrgyzstan.com/sites/default/files/media/image/c_evgeniy_mezencev.jpeg" alt="Ala-archa">
+          </div>
+          <div class="icon">
+            <a href="#" class="iconBox">
+              <span class="material-symbols-outlined"> arrow_outward </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Ала-Арча</h3>
+        <p>Национальный парк Ала-Арча предлагает уникальную возможность для трекинга и альпинизма. Величественные вершины и чистые реки создают идеальные условия для любителей активного отдыха.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-inner" style="--clr:#f0f0f0;">
+        <div class="box">
+          <div class="imgBox">
+            <img src="https://bestway.kg/wp-content/uploads/2023/09/dostoprimechatelnosti-bishkeka.jpg" alt="Bishkek">
+          </div>
+          <div class="icon">
+            <a href="#" class="iconBox">
+              <span class="material-symbols-outlined"> arrow_outward </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <h3>Бишкек</h3>
+        <p>Современный Бишкек сочетает в себе богатую историю и динамичную культуру. Посетите исторические памятники, такие как Площадь Ала-Тоо и Оперный театр, и насладитесь уютными кафе и рынками, где можно попробовать настоящую киргизскую кухню.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="tours" id="tours">
+  <div class="header">
+    <span>Лучшие Туры</span>
+    <h1>Популярные туры</h1>
+    <p>Мы — команда профессионалов, предлагающая уникальные туристические маршруты и незабываемые впечатления для каждого путешественника.</p>
+  </div>
+  <div class="owl-carousel owl-theme">
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1699855429469-0623d5601647?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Кыргызстан">
+      <div class="overlay">
+        <span>Кыргызстан</span>
+        <div>
+          <h2>Бишкек</h2>
+          <p>12 популярных мест</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1718922862183-278333c9daa8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Кыргызстан">
+      <div class="overlay">
+        <span>Кыргызстан</span>
+        <div>
+          <h2>Иссык-Куль</h2>
+          <p>10 популярных мест</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1651293578994-021adda39a2c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Кыргызстан">
+      <div class="overlay">
+        <span>Кыргызстан</span>
+        <div>
+          <h2>Ош</h2>
+          <p>8 популярных мест</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1602529359787-ce7468eaf119?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Кыргызстан">
+      <div class="overlay">
+        <span>Кыргызстан</span>
+        <div>
+          <h2>Нарын</h2>
+          <p>6 популярных мест</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1639933005643-79f25306e705?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Кыргызстан">
+      <div class="overlay">
+        <span>Кыргызстан</span>
+        <div>
+          <h2>Каракол</h2>
+          <p>10 популярных мест</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1665590476112-14cf95b14dde?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Кыргызстан">
+      <div class="overlay">
+        <span>Кыргызстан</span>
+        <div>
+          <h2>Чолпон-Ата</h2>
+          <p>9 популярных мест</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-us" id="about">
+  <div class="about-us-content">
+    <div class="text-column">
+      <div class="header">
+        <span>Лучшие Туры</span>
+        <h1>О нас</h1>
+        <p>Наша команда состоит из экспертов в области туризма, которые с любовью создают уникальные маршруты для путешествий по всему миру. Мы готовы предложить вам как популярные, так и эксклюзивные туристические предложения, которые сделают вашу поездку незабываемой.</p>
+      </div>
+    </div>
+    <div class="image-column">
+      <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRvdXIlMjBjb21wYW55fGVufDB8fDB8fHwy" alt="Изображение туристического маршрута">
+    </div>
+  </div>
+</section>
+<section class="our-team" id="our-team">
+  <div class="text">
+    <h1>Наша Команда 💫</h1>
+    <p>Мы — группа страстных профессионалов, объединённых любовью к путешествиям и исследованию мира. Наша команда состоит из опытных гидов, туристических консультантов и специалистов по организации туров, которые стремятся сделать каждое ваше путешествие уникальным и незабываемым.</p>
+    <p>С нашим многолетним опытом и глубокими знаниями популярных и скрытых туристических направлений, мы готовы предложить вам лучшие маршруты, учитывающие ваши предпочтения и желания. Мы заботимся о каждой детали, чтобы вы могли сосредоточиться на получении удовольствия от поездки!</p>
+  </div>
+  <div class="marquee-wrapper">
+    <div class="marquee">
+      <div class="marquee-item">
+        <article class="member">
+          <a class="member-link" href="#0">
+            <figure class="member-img-wrapper">
+              <img class="member-img" width="700" height="700" src="https://assets.codepen.io/162656/team1.jpg" alt="Team Member #1" />
+            </figure>
+            <figcaption class="member-details">
+              <h3 class="member-title">Team Member #1</h3>
+              <p class="member-subtitle">CEO</p>
+            </figcaption>
+          </a>
+        </article>
+      </div>
+      <div class="marquee-item">
+        <article class="member">
+          <a class="member-link" href="#0">
+            <figure class="member-img-wrapper">
+              <img class="member-img" width="1000" height="667" src="https://assets.codepen.io/162656/team2.jpg" alt="Team Member #2" />
+            </figure>
+            <figcaption class="member-details">
+              <h3 class="member-title">Team Member #2</h3>
+              <p class="member-subtitle">CTO</p>
+            </figcaption>
+          </a>
+        </article>
+      </div>
+      <div class="marquee-item">
+        <article class="member">
+          <a class="member-link" href="#0">
+            <figure class="member-img-wrapper">
+              <img class="member-img" width="560" height="700" src="https://assets.codepen.io/162656/team3.jpg" alt="Team Member #3" />
+            </figure>
+            <figcaption class="member-details">
+              <h3 class="member-title">Team Member #3</h3>
+              <p class="member-subtitle">Senior Developer</p>
+            </figcaption>
+          </a>
+        </article>
+      </div>
+      <div class="marquee-item">
+        <article class="member">
+          <a class="member-link" href="#0">
+            <figure class="member-img-wrapper">
+              <img class="member-img" width="1000" height="667" src="https://assets.codepen.io/162656/team4.jpg" alt="Team Member #4" />
+            </figure>
+            <figcaption class="member-details">
+              <h3 class="member-title">Team Member #4</h3>
+              <p class="member-subtitle">Visual Designer</p>
+            </figcaption>
+          </a>
+        </article>
+      </div>
+      <div class="marquee-item">
+        <article class="member">
+          <a class="member-link" href="#0">
+            <figure class="member-img-wrapper">
+              <img class="member-img" width="560" height="700" src="https://assets.codepen.io/162656/team5.jpg" alt="Team Member #5" />
+            </figure>
+            <figcaption class="member-details">
+              <h3 class="member-title">Team Member #5</h3>
+              <p class="member-subtitle">Marketing Lead</p>
+            </figcaption>
+          </a>
+        </article>
+      </div>
+      <div class="marquee-item">
+        <article class="member">
+          <a class="member-link" href="#0">
+            <figure class="member-img-wrapper">
+              <img class="member-img" width="1000" height="667" src="https://assets.codepen.io/162656/team6.jpg" alt="Team Member #6" />
+            </figure>
+            <figcaption class="member-details">
+              <h3 class="member-title">Team Member #6</h3>
+              <p class="member-subtitle">Art Director</p>
+            </figcaption>
+          </a>
+        </article>
+      </div>
+    </div>
+    <button type="button" class="marquee-arrow arrow-prev" aria-label="Go to the previous team member">
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd">
+        <path d="M20 .755l-14.374 11.245 14.374 11.219-.619.781-15.381-12 15.391-12 .609.755z" />
+      </svg>
+    </button>
+    <button type="button" class="marquee-arrow arrow-next" aria-label="Go to the next team member">
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd">
+        <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+      </svg>
+    </button>
+  </div>
+</section>
+<div class="contact_us_6" id="contact">
+  <div class="responsive-container-block container">
+    <form class="form-box">
+      <div class="container-block form-wrapper">
+        <div class="mob-text">
+          <p class="text-blk contactus-head"> Свяжитесь с нами </p>
+          <p class="text-blk contactus-subhead"> Откройте для себя мир вместе с нами! Оставьте свои данные, и мы поможем вам организовать идеальное путешествие. </p>
+        </div>
+        <div class="responsive-container-block" id="i2cbk">
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-3">
+            <p class="text-blk input-title"> ИМЯ </p>
+            <input class="input" id="ijowk-3" name="FirstName" placeholder="Введите ваше имя...">
+          </div>
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ip1yp">
+            <p class="text-blk input-title"> EMAIL </p>
+            <input class="input" id="ipmgh-3" name="Email" placeholder="Введите ваш email...">
+          </div>
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="ih9wi">
+            <p class="text-blk input-title"> ТЕЛЕФОН </p>
+            <input class="input" id="imgis-3" name="PhoneNumber" placeholder="Введите ваш номер телефона...">
+          </div>
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-3">
+            <p class="text-blk input-title"> КАКОЕ ПУТЕШЕСТВИЕ ВЫ ИЩЕТЕ? </p>
+            <textarea class="textinput" id="i5vyy-3" placeholder="Опишите ваш запрос..."></textarea>
+          </div>
+        </div>
+        <button class="submit-btn" id="w-c-s-bgc_p-1-dm-id-2"> Отправить </button>
+      </div>
+    </form>
+    <div class="responsive-cell-block wk-desk-7 wk-ipadp-12 wk-tab-12 wk-mobile-12" id="i772w">
+      <div class="map-part">
+        <p class="text-blk map-contactus-head" id="w-c-s-fc_p-1-dm-id"> Наш адрес </p>
+        <p class="text-blk map-contactus-subhead"> Приходите к нам за вдохновением для вашего следующего приключения! Мы всегда рады помочь вам с организацией путешествия. </p>
+        <div class="social-media-links mob">
+          <a class="social-icon-link" href="#" id="ix94i-2-2">
+            <svg class="link-img image-block" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint0_radial_87_7153)"></rect> <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint1_radial_87_7153)"></rect> <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#paint2_radial_87_7153)"></rect> <path d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z" fill="white"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z" fill="white"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z" fill="white"></path> <defs> <radialGradient id="paint0_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"> <stop stop-color="#B13589"></stop> <stop offset="0.79309" stop-color="#C62F94"></stop> <stop offset="1" stop-color="#8A3AC8"></stop> </radialGradient> <radialGradient id="paint1_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"> <stop stop-color="#E0E8B7"></stop> <stop offset="0.444662" stop-color="#FB8A2E"></stop> <stop offset="0.71474" stop-color="#E2425C"></stop> <stop offset="1" stop-color="#E2425C" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint2_radial_87_7153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"> <stop offset="0.156701" stop-color="#406ADC"></stop> <stop offset="0.467799" stop-color="#6A45BE"></stop> <stop offset="1" stop-color="#6A45BE" stop-opacity="0"></stop> </radialGradient> </defs> </g></svg>
+            
+          </a>
+          <a class="social-icon-link" href="#" id="itixd">
+           <svg class="link-img image-block" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 31C23.732 31 30 24.732 30 17C30 9.26801 23.732 3 16 3C8.26801 3 2 9.26801 2 17C2 19.5109 2.661 21.8674 3.81847 23.905L2 31L9.31486 29.3038C11.3014 30.3854 13.5789 31 16 31ZM16 28.8462C22.5425 28.8462 27.8462 23.5425 27.8462 17C27.8462 10.4576 22.5425 5.15385 16 5.15385C9.45755 5.15385 4.15385 10.4576 4.15385 17C4.15385 19.5261 4.9445 21.8675 6.29184 23.7902L5.23077 27.7692L9.27993 26.7569C11.1894 28.0746 13.5046 28.8462 16 28.8462Z" fill="#BFC8D0"></path> <path d="M28 16C28 22.6274 22.6274 28 16 28C13.4722 28 11.1269 27.2184 9.19266 25.8837L5.09091 26.9091L6.16576 22.8784C4.80092 20.9307 4 18.5589 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z" fill="url(#paint0_linear_87_7264)"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30C23.732 30 30 23.732 30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 18.5109 2.661 20.8674 3.81847 22.905L2 30L9.31486 28.3038C11.3014 29.3854 13.5789 30 16 30ZM16 27.8462C22.5425 27.8462 27.8462 22.5425 27.8462 16C27.8462 9.45755 22.5425 4.15385 16 4.15385C9.45755 4.15385 4.15385 9.45755 4.15385 16C4.15385 18.5261 4.9445 20.8675 6.29184 22.7902L5.23077 26.7692L9.27993 25.7569C11.1894 27.0746 13.5046 27.8462 16 27.8462Z" fill="white"></path> <path d="M12.5 9.49989C12.1672 8.83131 11.6565 8.8905 11.1407 8.8905C10.2188 8.8905 8.78125 9.99478 8.78125 12.05C8.78125 13.7343 9.52345 15.578 12.0244 18.3361C14.438 20.9979 17.6094 22.3748 20.2422 22.3279C22.875 22.2811 23.4167 20.0154 23.4167 19.2503C23.4167 18.9112 23.2062 18.742 23.0613 18.696C22.1641 18.2654 20.5093 17.4631 20.1328 17.3124C19.7563 17.1617 19.5597 17.3656 19.4375 17.4765C19.0961 17.8018 18.4193 18.7608 18.1875 18.9765C17.9558 19.1922 17.6103 19.083 17.4665 19.0015C16.9374 18.7892 15.5029 18.1511 14.3595 17.0426C12.9453 15.6718 12.8623 15.2001 12.5959 14.7803C12.3828 14.4444 12.5392 14.2384 12.6172 14.1483C12.9219 13.7968 13.3426 13.254 13.5313 12.9843C13.7199 12.7145 13.5702 12.305 13.4803 12.05C13.0938 10.953 12.7663 10.0347 12.5 9.49989Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7264" x1="26.5" y1="7" x2="4" y2="28" gradientUnits="userSpaceOnUse"> <stop stop-color="#5BD066"></stop> <stop offset="1" stop-color="#27B43E"></stop> </linearGradient> </defs> </g></svg>
+          </a>
+          <a class="social-icon-link" href="#" id="izxvt">
+            <svg class="link-img image-block" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"></circle> <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white"></path> <defs> <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse"> <stop stop-color="#37BBFE"></stop> <stop offset="1" stop-color="#007DBB"></stop> </linearGradient> </defs> </g></svg>
+          </a>
+          <a class="social-icon-link" href="#" id="izldf-2-2">
+            <svg class="link-img image-block" viewBox="0 0 14 14" role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#485a96" d="M12.3377569 13.000045c.36572 0 .662243-.2965683.662243-.66228789V1.6622429c0-.3658549-.296568-.6622879-.662243-.6622879H1.66228797c-.36585448 0-.66228788.296478-.66228788.6622879v10.67546925c0 .36576455.2964334.66228785.66228788.66228785H12.3377569z"></path><path fill="#ffffff" d="M9.2798126 13.000045V8.3529692h1.5598161l.2335322-1.8110629H9.2797676V5.3856227c0-.5243449.1455865-.8816567.8975283-.8816567l.958991-.0004496V2.8837212c-.165864-.022031-.735171-.071354-1.3974139-.071354-1.3827115 0-2.329338.8439787-2.329338 2.3939481v1.3355914H5.8457173v1.8110629H7.409535v4.6470308h1.8702776z"></path></g></svg>
+          </a>
+        </div>
+        <div class="map-box container-block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.158203598176!2d37.61556031592939!3d55.75582668055332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a112bafdd%3A0x5a4ef573d7f9c6d4!2z0JzQvtGB0LrQstCwLCAxLCDQnNC-0YHQutCy0LAsIDExMTA0MQ!5e0!3m2!1sru!2sru!4v1604442212222!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Путешествуй с нами</h1>
+    <h2>Контакты</h2>
+    <address> Улица Приключений, 1234, Город Путешествий, 54321 <br>
+      <a class="footer__btn" href="mailto:info@travelwithus.com">Напишите нам</a>
+    </address>
+  </div>
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Направления</h2>
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Популярные направления</a>
+        </li>
+        <li>
+          <a href="#">Скрытые жемчужины</a>
+        </li>
+        <li>
+          <a href="#">Гиды по путешествиям</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Советы путешественникам</h2>
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Советы по упаковке</a>
+        </li>
+        <li>
+          <a href="#">Бюджетные поездки</a>
+        </li>
+        <li>
+          <a href="#">Безопасность в путешествии</a>
+        </li>
+        <li>
+          <a href="#">Культурная этика</a>
+        </li>
+        <li>
+          <a href="#">Страхование путешествий</a>
+        </li>
+        <li>
+          <a href="#">Устойчивый туризм</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav__item">
+      <h2 class="nav__title">Юридическая информация</h2>
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Политика конфиденциальности</a>
+        </li>
+        <li>
+          <a href="#">Условия использования</a>
+        </li>
+        <li>
+          <a href="#">Карта сайта</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <div class="legal">
+    <p>&copy; 2024 Путешествуй с нами. Все права защищены.</p>
+    <div class="legal__links">
+      <span>С любовью для путешественников по всему миру <span class="heart">♥</span>
+      </span>
+    </div>
+  </div>
+</footer>
+<!-- Подключаем библиотеку GSAP и OwlCarousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<!-- Подключаем собственные скрипты -->
+<script src="js/swiper.js"></script>
+<script src="js/owlCarousel.js"></script>
+<script src="js/marquee.js"></script>
+<script src="js/scroll.js"></script>
+
+
+</body>
+</html>
